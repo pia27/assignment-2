@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Get Details Display in Table</title>
+        <meta name="description" content="">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"  type="text/css" href="style.css"/>
+       
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+
+
+        
+          <h2>Student Database</h2>
+       
+            <div id="container">
+            <div class="input">First Name: <input id="fname" type="text" First Name="fname"/></div>
+            <div class="input">Last Name: <input id="lname" type="text"   Last Name="lname"/></div>
+            <div class="input">Department:<input id="dname" type="text"  Department="dname"/></div>
+            <div class="input">College Name:<input id="cname" type="text" college Name="cname"/></div>
+            <label for="Year">Choose a Year:</label>
+            <select name="Year" id="Year">
+              <option value="1st">1st</option>
+              <option value="2nd">2nd</option>
+              <option value="3rd">3rd</option>
+              <option value="4th">4th</option>
+            </select><br>
+        
+  
+            
+        </div>
+        
+        <input type="submit"class="btn btn-info" value="Submit">
+        <input type="reset"class="btn btn-info" value="Reset">
+</form>
+        <table id="displays">
+            <div class="container">        
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Department</th>
+                      <th>College Name</th>
+                      <th>Year</th>
+                      <th>Remove</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><input type="remove" class="btn btn-info" value="Remove"></td>
+                      </tr>
+                      <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><input type="remove" class="btn btn-info" value="Remove"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><input type="remove" class="btn btn-info" value="Remove"></td>
+                       </tr>
+                  </tbody>
+                </table>
+        </table>
+        <script src="script.js"></script>
+    
+    </body>
+</html>
