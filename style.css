@@ -63,9 +63,7 @@ html {
     border: none;
     outline: none;
     padding: 12px 16px;
-    background-color:green;
+    background-color:skyblue;
     cursor: pointer;
   }
-  .Submit btn{ 
-    color:goldenrod;
-  }
+  
